@@ -1,0 +1,139 @@
+/* Reset some basic elements */
+body, h1, p, input, button, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9966, #ff5e62); /* Colorful gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.5s ease;
+}
+
+/* Container styling */
+.container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+/* Header styling */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Input field styling */
+.small-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    transition: border 0.3s ease;
+}
+
+.small-input:focus {
+    border: 1px solid #ff9966;
+    outline: none;
+}
+
+/* Tooltip styling */
+.tooltip {
+    font-size: 12px;
+    color: #888;
+    margin-top: -8px;
+    display: block;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #4caf50, #388e3c);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #388e3c, #2e7d32);
+    transform: translateY(-2px);
+}
+
+/* Result styling */
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* BMI Info section */
+.bmi-info {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.bmi-info h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bmi-info ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.bmi-info li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
+
+footer a {
+    color: #ff5e62;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
